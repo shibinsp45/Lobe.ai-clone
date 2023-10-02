@@ -45,12 +45,12 @@
     color: black;
     margin:0 25px;
     transition: .3s;
-    flex-direction: row; /* Arrange items horizontally */
+    flex-direction: row; 
 } 
 
 .navbar a:hover {
-    background-color: #88868600; /* Background color on hover */
-    color: rgba(120, 117, 117, 0.927); /* Text color on hover */
+    background-color: #88868600; 
+    color: rgba(120, 117, 117, 0.927); 
 }
 
 /* Style for the download button */
@@ -152,45 +152,45 @@ hr{
 }
 /* Apply styles to the entire footer */
 .footer {
-    background-color: rgba(255, 255, 255,.1); /* Background color */
-    color:rgba(51, 51, 51, 0.858); /* Text color */
-    padding: 20px; /* Spacing inside the footer */
+    background-color: rgba(255, 255, 255,.1); 
+    color:rgba(51, 51, 51, 0.858); 
+    padding: 20px; 
     display:flex;
 }
 
 /* Style for the individual footer sections */
 .footer1, .footer2, .footer3, .footer4,.footer5 {
-    flex: 2; /* Equal width for sections */
-    text-align: center; /* Center-align text */
-    padding: 12px; /* Spacing inside each section */
+    flex: 2; 
+    text-align: center;
+    padding: 12px; 
 }
 
 /* Style for the logo */
 .logo {
     width: 100px;
     margin-left:120px; 
-    margin-bottom: 2px;/* Adjust the width as needed */
+    margin-bottom: 2px;
 }
 
 /* Style for h1 and p elements in the sections */
 .footer h1, .footer p {
-    margin: 15px ; /* Add spacing around text */;
+    margin: 15px ;
 }
 
 /* Style the links in the "Follow" section */
 .footer div:last-child {
-    text-align: center; /* Center-align text */
+    text-align: center;
 }
 
 .footer a {
-    color: #111010; /* Link color */
-    text-decoration: none; /* Remove underline */
-    margin: 0 10px; /* Add spacing between links */
+    color: #111010; 
+    text-decoration: none; 
+    margin: 0 10px; 
 }
 
 /* Change link color on hover */
 .footer a:hover {
-    color: #007bff; /* Hover color */
+    color: #007bff;
 }
 .footer5 p{
     color: #4cb882e3;
