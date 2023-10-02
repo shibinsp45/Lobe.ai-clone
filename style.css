@@ -21,17 +21,18 @@
     padding-left:40px;
     padding-right:40px;
 
+
 }
 
 .logo{
     width:130px;
     float:left;
-    margin-left:10px;
+    margin-right:18rem;
     transform-origin:0px 0px;
   }
 
 .navbar a {
-    float: left;
+    float:center;
     padding-top: 5px;
     flex-direction: row;
     display: flex;
@@ -63,6 +64,9 @@
     color: white;
     border:1px solid;
     text-decoration: none;
+    font-size:15px;
+    padding:12px;
+    margin-left:250px;
 }
 .container{
     text-align: center;
@@ -122,30 +126,21 @@ img{
 
 .head2{
     text-align: center;
-    margin-top: 90px;
     margin-bottom: 100px;
 }
 .button2{
-       align-self:center;
-        width: 200px;
-        height: 45px;
-        border-radius: 32px;
-        background-color: #04ddb2;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        align-content: center;
-        color: #fff;
-        
-        font-size: 15px;
-        font-family: LabGrotesque,Helvetica Neue,Helvetica,Arial,sans-serif;
-        cursor: pointer;
-        transition: .4s;
-        box-shadow: 0 10px 20px -8px transparent;
-        letter-spacing: normal;
-        word-spacing: normal;
-        line-height: normal;
-        margin-left:46%;
+    width:130px;
+    padding:9px;
+    text-align: center;
+    border-radius:25px;
+    border-color:white;
+    background-color:#4cb882e3;
+    color: white;
+    border:1px solid;
+    text-decoration: none;
+    font-size:15px;
+    padding:12px;
+    margin-left:47em;
 }
 
 hr{
@@ -173,7 +168,7 @@ hr{
 /* Style for the logo */
 .logo {
     width: 100px;
-    margin-left:70px; 
+    margin-left:120px; 
     margin-bottom: 2px;/* Adjust the width as needed */
 }
 
